@@ -1,0 +1,178 @@
+
+                    DL_POLY Version 2.0
+
+                              Running on    4 nodes
+
+
+ msatms         128           4
+ dens, mxlist   4.9860320003106723E-002         256
+ mxlist =          512
+  Allocated my_dist          512
+  Allocated my_mol           512
+ **********************************************************************************************************************************
+ **********************************************************************************************************************************
+ **********************************************************************************************************************************
+ ********************     HEAT FLUX calculation for bulk silicon                                               ********************
+ **********************************************************************************************************************************
+ **********************************************************************************************************************************
+ **********************************************************************************************************************************
+
+
+ SIMULATION CONTROL PARAMETERS
+
+
+ velocity verlet integration selected
+
+ simulation pressure (katm)       0.0000E+00
+
+ simulation temperature           3.0000E+02
+
+ microcanonical ensemble
+
+ zero K optimisation requested:
+ temperature reset  1.0000E+01
+
+ Frozen phonon calculation.  dx =    0.000
+
+ Q-vector in phonon calculation:    0.000   0.000   0.000
+
+ Calculation of the third order force constants
+
+ selected number of timesteps       100000
+
+ simulation timestep              8.0000E-04
+
+ data printing interval               1000
+
+ statistics file interval              100
+
+ real space cut off               1.2000E+01
+
+ border width of Verlet shell     0.0000E+00
+
+
+ electrostatic potential terms off
+
+
+ short-range potential terms off
+
+ user allocated job time (s)      1.0000E+06
+
+ job closure time        (s)      9.9900E+01
+
+
+SYSTEM SPECIFICATION
+
+ energy units=electron volts 
+
+
+ number of molecular types               1
+
+ molecular species type                  1
+
+
+ name of species:             Silicon                                 
+
+ number of molecules                   512
+
+ number of atoms/sites                   1
+
+
+ atomic characteristics:
+
+                      site     name          mass        charge    repeat    freeze
+
+                         1     Si          28.08550     0.00000         1         0
+
+
+ number of specified tersoff atom potentials         1
+
+
+                atom        key                              parameters
+
+
+                Si        ters    1.83080E+03  2.47990E+00  4.71180E+02  1.73220E+00  2.70000E+00
+                                  3.00000E+00  1.10000E-06  7.87340E-01  1.00390E+05  1.62170E+01
+                                 -5.98250E-01
+
+
+ number of tersoff cross terms         1
+
+
+                atom    atom              parameters
+
+
+                Si      Si        1.00000E+00  1.00000E+00
+
+Tersoff with replica exchange setup
+
+ Scaling the attactive part of the potential
+ Scaling factors for atom pair Si - Si
+  1.0000
+
+
+Tersoff with replica exchange end setup
+ is it safe? T
+
+ configuration file name: 
+
+          CONFIG                                                                          
+
+
+ selected image convention               3
+
+
+ simulation cell vectors
+
+
+                        21.735600    0.000000    0.000000
+                         0.000000   21.735600    0.000000
+                         0.000000    0.000000   21.735600
+
+
+ system volume            10268.6866023    
+ Generating     27 cell images in real space
+
+
+ Q vector in A^-1 :0.00000000    0.00000000    0.00000000    
+
+
+ total degrees of freedom                      1533.
+ rotational degrees of freedom                    0.
+ shell pseudo degrees of freedom                  0.
+
+
+ sample of starting configuration
+
+      i       x(i)        y(i)        z(i)       vx(i)       vy(i)       vz(i)       fx(i)       fy(i)       fz(i)
+
+
+      1  7.6998E+00  1.8923E+01  1.5037E+01  6.9090E-01  8.7932E-01 -5.1514E+00 -1.9325E-08  7.7541E-08 -3.8965E-08
+     27  1.1924E+01  1.5225E+00  1.0776E+01  1.2026E+00 -4.1297E+00  1.0445E+00 -3.8922E-08  4.4975E-09  3.8840E-08
+     53  1.1960E+01  2.0773E+00  4.2743E+00  1.4901E+00 -1.0168E+00  2.0562E+00 -3.8747E-08 -9.7293E-09  1.9463E-08
+     79  1.1431E+01  2.0437E+01  2.1132E+00 -2.0723E+00  2.3890E+00  5.9356E+00 -3.6952E-08  7.7820E-08  9.5943E-09
+    105  1.6919E+01  1.9103E+01  1.2618E+01  2.3607E+00  5.0633E-01 -1.4820E+00 -7.7628E-08  7.7724E-08  8.7012E-09
+    131  3.6802E+00  1.8482E+01  1.5401E+01  1.7574E+01 -1.7829E+01  1.5730E+01 -2.3938E-09  7.6236E-08 -3.8879E-08
+    157  6.1716E+00  2.0586E+01  2.1669E+01 -2.9651E+00  6.2804E+00  2.2460E-01  1.9391E-08  5.1738E-08 -7.7598E-08
+    183  1.2156E+01  1.3083E+01  3.9469E+00  2.3857E+01 -3.2090E+01 -3.6934E+00  3.4411E-08  1.4692E-08  9.5747E-09
+    209  1.3981E+01  1.2795E+01  1.9024E+01 -1.5302E+01 -9.8517E+00 -3.0592E+01  3.8710E-08  3.6035E-08  7.7542E-08
+    235  4.1835E+00  1.4985E+01  9.0262E+00 -1.1919E+01 -2.2366E+01  7.8059E+00 -1.9454E-08 -3.8800E-08 -3.8849E-08
+    261  1.8964E+01  1.1415E+01  1.9695E+01 -3.6482E+01 -4.6051E+00  6.6217E-01  7.7878E-08  3.8798E-08  7.7769E-08
+    287  1.8225E+01  8.0667E+00  1.9073E+01 -1.7227E+01 -1.9937E+01 -1.4549E+00  7.7771E-08  3.6607E-08  7.7904E-08
+    313  1.1786E+01  9.1443E+00  1.7851E+01  2.0854E+01  1.5419E+00  2.3984E+01  3.8753E-08  3.8656E-08  7.7827E-08
+    339  5.7588E+00  1.6097E+01  1.9835E+01 -2.7840E+01 -1.0054E+01  6.3647E+00  1.9376E-08  7.7314E-08 -7.7793E-08
+    365  1.2060E+01  1.3517E+01  1.3195E+01 -5.1033E+00  7.5724E+00  2.8596E+00 -2.3949E-08  3.8846E-08  3.8783E-08
+    391  6.4631E+00  1.6786E+01  6.3909E+00 -1.5885E+01  1.1140E+01  1.1761E+00 -1.9417E-08 -7.7323E-08 -1.9286E-08
+    417  6.6937E+00  6.1744E+00  1.0334E+01 -9.2657E+00 -5.0543E+00  1.0182E+01 -1.9367E-08 -1.9472E-08  3.8830E-08
+    443  1.8060E+00  1.4252E+01  1.5427E+01 -3.0894E+01  1.5995E+01 -1.7468E+01 -4.7876E-09  3.8579E-08 -3.8682E-08
+    469  1.4352E+01  2.0765E+01  4.5435E+00  8.4417E+00 -8.7111E+00  1.2600E+00 -3.8438E-08 -7.7837E-08  1.9476E-08
+    495  2.5958E+00  1.9628E+01  2.0890E+01  6.2966E+00  4.0364E+00 -1.7579E+01 -9.5133E-09 -7.7217E-08 -7.7294E-08
+
+
+long range correction for: vdw energy     0.000000E+00
+                         : vdw pressure   0.000000E+00
+
+ time elapsed since job start =           0.006 seconds
+
+ Allocated dynmat        1536
+ All initialization done safely
